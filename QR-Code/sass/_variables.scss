@@ -1,0 +1,12 @@
+:root{
+    --color-1:hsl(0, 0%, 100%);
+    --color-2:  hsl(212, 45%, 89%);
+    --color-3:  hsl(220, 15%, 55%);
+    --color-4:hsl(218, 44%, 22%);
+}
+
+body{
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--color-2);
+}
