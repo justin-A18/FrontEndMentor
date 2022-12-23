@@ -1,0 +1,393 @@
+:root{
+    --color1: hsl(243, 87%, 12%);
+    --color2: hsl(238, 22%, 44%);
+    --color3: hsl(224, 93%, 58%);
+    --color4: hsl(170, 45%, 43%);
+    --color5: hsl(240, 75%, 98%);
+    --color6: hsl(0, 0%, 75%);
+    --color7: hsl(224, 77%, 74%);
+    --font1:  'Raleway', sans-serif;
+    --font2:  'Open Sans', sans-serif;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+/* HEADER */
+
+.container__nav{
+    width: 100%;
+    height: 5rem;
+    padding-top: .5rem;
+    padding-right: 3rem;
+}
+
+.content__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo img{
+    width: 10rem;
+}
+
+.nav__links{
+    gap: 2rem;
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.nav__links .link{
+    color: var(--color1);
+    text-decoration: none;
+    font-family: var(--font1);
+}
+
+/* MAIN */
+
+.container-principal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font1);
+    margin: 3rem auto;
+    margin-bottom: 0;
+}
+
+/* Section 1 - Files */
+
+.section__files{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+    flex-direction: column;
+}
+
+.files-image{
+    width: 60%;
+}
+
+.files-image img{
+    width: 100%;
+}
+
+.files-text{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.files-text h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    color: var(--color1);
+    line-height: 4.5rem;
+}
+
+.files-text p{
+    font-size: 1.4rem;
+    color: var(--color1);
+    font-family: var(--font2);
+    text-align: center;
+    line-height: 2.5rem;
+    padding: 0 3rem;
+}
+
+.files__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.files__form input{
+    width: 30rem;
+    height: 4rem;
+    padding-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.files__form button{
+    width: 100%;
+    height: 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: .5rem;
+    color: var(--color5);
+    font-family: var(--font2);
+    border: thin solid transparent;
+    background-color: var(--color7);
+    transition: background-color 300ms linear ; 
+}
+
+
+.files__form button:hover{
+    cursor: pointer;
+    background-color: var(--color3);
+}
+
+/* section 2 */
+
+.section__productive{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.productive__image{
+    width: 60%;
+}
+
+.productive__image img{
+    width: 100%;
+}
+
+.productive__text{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.productive__text h2{
+    color: var(--color1);
+    font-family: var(--font2);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.productive__text p{
+    font-size: 1.5rem;
+    color: var(--color1);
+    line-height: 2.5rem;
+}
+
+.productive__text a{
+    color: var(--color1);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.productive__text a span{
+    font-size: 1.5rem;
+    color: var(--color4);
+}
+
+.productive__text img{
+    width: 3rem;
+}
+
+.productive__text a:hover{
+    text-decoration: underline var(--color4);
+}
+
+.productive__card{
+    width: 35rem;
+    height: 28rem;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.5);
+    padding: 2rem;
+    margin: 5rem;
+}
+
+.productive__card .comillas{
+    width: 2rem;
+}
+
+.productive__card .card__paragraph{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card__info{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card__info .info__image{
+    border-radius: 50%;
+    width: 7rem;
+}
+
+.card__info .info__text h3{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Seccion 3 */
+
+.section-access{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    color: var(--color5);
+    flex-direction: column;
+    background-color: var(--color2);
+    justify-content: space-around;
+}
+
+.access__text{
+    width: 45rem;
+}
+
+.access__text h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.access__text p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.access__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.access__form input{
+    width: 30rem;
+    height: 4rem;
+    padding-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.access__form button{
+    width: 100%;
+    height: 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: .5rem;
+    color: var(--color5);
+    font-family: var(--font2);
+    border: thin solid transparent;
+    background-color: var(--color7);
+    transition: background-color 300ms linear ; 
+}
+
+
+.access__form button:hover{
+    cursor: pointer;
+    background-color: var(--color3);
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color1);
+    color: var(--color5);
+    padding: 2.5rem;
+    gap: 1rem;
+}
+
+.footer-image img{
+    width: 18rem;
+    height: 5rem;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    gap: 2rem;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font2);
+}
+
+.footer li{
+    list-style-type: none;
+    line-height: 5rem;
+}
+
+.links__personal a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    font-family: var(--font2);
+}
+
+.link__contacto a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    font-family: var(--font2);
+}
+
+.link__redes{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link__redes svg{
+    width: 3rem;
+    padding: .5rem;
+    fill: white;
+    border-radius: 50%;
+    border: thin solid white;
+}
+
+/* Responsive */
+
+@media screen and (min-width:900px) {
+    .section__files{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .files-text{
+        width: 70rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .files-text p{
+        font-size: 1.5rem;
+        width: 40rem;
+    }
+
+
+    .section__productive{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+
+    .section-access{
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+    }
+
+    .access__form input{
+        width: 40rem;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+}
